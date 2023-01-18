@@ -1,0 +1,48 @@
+.cont {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:green;
+    
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+.box1{
+  /* position: absolute; */
+  /* top: 50%; */
+  
+  left: 50%;
+  margin-left: 50%;
+  margin-top: 18%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0,0, .5);
+  display: flex;
+}
+
+.box1 .imgBx1{
+    width: 150px;
+    flex: 0 0 150px;
+     /* height: 50px; */
+} 
+.box1 .imgBx1 img{
+  width: 50%;
+  height: 30%;
+}
+
+
+.vdo{
+  margin-left: 26%;
+}
+  
